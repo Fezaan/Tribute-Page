@@ -1,0 +1,61 @@
+body{
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    margin: 0;
+    line-height: 2;
+}
+.title{
+    margin: 0;
+    padding: 50px 0 20px;
+}
+.title-sub{
+    padding: 0 0 50px;
+    margin:0;
+    font-family: 'Mali', cursive;
+}
+.head{
+    background-color: #9a1663;
+    color: #ff97c1;
+    background-image: url(back.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.image{
+    width: 100%;
+    object-fit: cover;
+    width: 70%;
+    height: 70%;
+    border-radius: 12%;
+}
+.img-caption{
+    padding: 30px 0 50px;
+}
+hr{
+    margin: 0;
+}
+h1{
+    font-size: 2.5rem;
+    color: #ff97c1;
+    font-family: 'Shadows Into Light', cursive;
+}
+.animated{
+    float: right;
+    width: 36%;
+    position: relative;
+    top: 14%;
+}
+section{
+    background-color: #e0144c;
+}
+ul{
+    text-align: left;
+    width: 60%;
+    list-style-type: circle;
+}
+.bottom-background{
+    background-color: #ff5858;
+}
+.ending{
+    background-color: #ff97c1;
+}
