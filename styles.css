@@ -3,6 +3,9 @@ body{
     font-family: 'Josefin Sans', sans-serif;
     margin: 0;
     line-height: 2;
+    color: #ff97c1;
+    font-weight: 600;
+    font-size: 1.25rem;
 }
 .title{
     margin: 0;
@@ -15,7 +18,7 @@ body{
 }
 .head{
     background-color: #9a1663;
-    color: #ff97c1;
+    color: wheat;
     background-image: url(back.png);
     background-repeat: no-repeat;
     background-size: cover;
@@ -36,26 +39,91 @@ hr{
 }
 h1{
     font-size: 2.5rem;
-    color: #ff97c1;
+    color: wheat;
     font-family: 'Shadows Into Light', cursive;
 }
 .animated{
     float: right;
     width: 36%;
-    position: relative;
-    top: 14%;
 }
 section{
     background-color: #e0144c;
+    padding: 30px 0;
 }
 ul{
     text-align: left;
     width: 60%;
     list-style-type: circle;
 }
+li{
+    margin: 15px 0;
+}
+.a{
+    color: #ed86da;
+}
+.link{
+    color: wheat;
+    text-decoration: none;
+}
+.link:hover{
+    color: whitesmoke;
+}
 .bottom-background{
     background-color: #ff5858;
+    padding-bottom: 50px;
+}
+.bottom-background h1{
+    margin: 0;
+    padding: 30px 0;
+}
+.bottom-background p{
+    margin: 0;
+    padding: 0 0 30px;
 }
 .ending{
     background-color: #ff97c1;
+    color: wheat;
+    padding: 50px 0 20px;
 }
+.href{
+    margin: 30px;
+    color: wheat;
+    text-decoration: none;
+}
+.href:hover{
+    color: whitesmoke;
+}
+.tribute-info{
+    width: 40%;
+    margin: 0 auto;
+}
+.connect{
+    color: wheat;
+}
+.btn {
+    background: #DEF5E5;
+    background-image: -webkit-linear-gradient(top, #DEF5E5, #BCEAD5);
+    background-image: -moz-linear-gradient(top, #DEF5E5, #BCEAD5);
+    background-image: -ms-linear-gradient(top, #DEF5E5, #BCEAD5);
+    background-image: -o-linear-gradient(top, #DEF5E5, #BCEAD5);
+    background-image: linear-gradient(to bottom, #DEF5E5, #BCEAD5);
+    -webkit-border-radius: 16;
+    -moz-border-radius: 16;
+    border-radius: 16px;
+    font-family: Arial;
+    color: gray;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    color: gray;
+    background: #CDFCF6;
+    background-image: -webkit-linear-gradient(top, #CDFCF6, #BCCEF8);
+    background-image: -moz-linear-gradient(top, #CDFCF6, #BCCEF8);
+    background-image: -ms-linear-gradient(top, #CDFCF6, #BCCEF8);
+    background-image: -o-linear-gradient(top, #CDFCF6, #BCCEF8);
+    background-image: linear-gradient(to bottom, #CDFCF6, #BCCEF8);
+    text-decoration: none;
+  }
